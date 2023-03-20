@@ -36,7 +36,7 @@ int main(void)
 			}
 			n1++;
 		}
-		n++
+		n++;
 	}
 	putchar('\n');
 

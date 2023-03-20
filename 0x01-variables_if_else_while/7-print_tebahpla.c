@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	ch = 'z';
+	char ch = 'z';
 
 	while (ch >= 'a')
 	{

@@ -14,7 +14,7 @@ int main(void)
 
 	while (n <= 9)
 	{
-		puthcar(n, ",");
+		putchar(n, ",");
 	}
 	putchar('\n');
 

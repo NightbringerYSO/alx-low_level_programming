@@ -32,7 +32,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				n2++
+				n2++;
 			}
 			n1++;
 		}

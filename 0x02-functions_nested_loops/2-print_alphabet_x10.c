@@ -1,7 +1,7 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_alhpabet_x10 - function that will print the alhpabet 10 times
+ * print_alphabet_x10 - function that will print the alhpabet 10 times
  *
 */
 

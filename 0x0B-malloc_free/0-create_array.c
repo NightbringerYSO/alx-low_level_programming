@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *main - array for prints a string
@@ -9,32 +9,13 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *buffer;
-	unsigned int position;
+	char *n = malloc(size);
 
-	if (size == 0)
-	{
-		return (NULL);
-	}
+	if (size == 0 || n == 0)
+		return (0);
+	
+	while (size--)
+		n[size] = c;
 
-	/*Define values with malloc*/
-	buffer = (char *) malloc(size * sizeof(c));
-
-	if (buffer == 0)
-	{
-		return (NULL);
-	}
-
-	else
-	{
-		position = 0;
-		while (position < size) /*While for array*/
-		{
-			*(buffer + position) = c;
-			position++;
-		}
-
-		return (buffer);
-	}
-
+	return (n);
 }

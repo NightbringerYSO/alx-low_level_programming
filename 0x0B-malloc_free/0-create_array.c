@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *main - array for prints a string
- *@size: number elements array
- *@c: char
- *Return: pointer
+ * *create_array - creates an array of chars and initializes it
+ * @size: size of the array
+ * @c: char to initialize
+ * Return: pointer to the array you initialized or NULL
 */
 
 char *create_array(unsigned int size, char c)
@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0 || n == 0)
 		return (0);
-	
+
 	while (size--)
 		n[size] = c;
 

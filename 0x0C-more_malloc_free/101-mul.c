@@ -19,7 +19,7 @@ void _puts(char *str)
 
 /**
  * _atoi - convert a string to an integer
- * @s: cahr type string
+ * @s: char type string
  * Return: integer converted
  */
 

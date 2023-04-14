@@ -45,9 +45,9 @@ int _atoi(const char *s)
 }
 
 /**
- * print_int - prints an int
+ * print_int - prints an intger
  * @n: int
- * Retrun: 0
+ * Return: 0
  */
 
 void print_int(unsigned long int n)
